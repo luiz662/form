@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./style.css">
     <title>Formulario</title>
 </head>
@@ -31,13 +32,32 @@
                 <input type="email" id="email" name="email" placeholder="seu@email.com" required>
     
                 <label for="senha">Senha</label>
+                <div class="olho">
                 <input type="password" id="senha" name="senha" placeholder="Sua senha" required>
-    
+                <img src="./img/icon.svg" alt="">
+            
+            </div>
+
+       <!--      <div class="login-container">
+                <form action="#" method="post">
+                    <label for="senha">Senha</label>
+                    <div class="input-group">
+                        <input type="password" id="senha" name="senha" placeholder="Entre com sua senha">
+                        <button type="button" class="toggle-password">
+                            <img src="olho-icon.png" alt="Mostrar senha">
+                        </button>
+                    </div> -->
+                    
                 <div class="checkbox-container">
+                  <div class="mm">
                     <input type="checkbox" id="lembrar" name="lembrar">
+                </div>
                     <label for="lembrar">Lembrar-me</label>
+                    <a href="">Esqueceu sua senha?</a>
                 </div>
     
+
+               
                 <button type="submit">Entrar</button>
             </form>
         </div>

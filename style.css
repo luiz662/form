@@ -28,6 +28,7 @@ body {
 }
 
 .container {
+    
     display: flex;
     justify-content: center;
 }
@@ -60,19 +61,22 @@ body {
 }
 
 .login-form {
+    
+    gap: 33px;
     display: flex;
     flex-direction: column;
 }
 
 .login-form label {
+    
     margin-bottom: 5px;
     font-weight: bold;
     color: #333;
 }
 
 .login-form input {
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 9px;
+  
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
@@ -85,8 +89,11 @@ body {
 
 .checkbox-container {
     display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+    gap: 8px;
+    
+ /*    align-items: center; */
+   /*  margin-bottom: 20px; */
+  justify-content: space-between;
 }
 
 .login-form button {
@@ -96,6 +103,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+   
 }
 
 .login-form button:hover {
@@ -116,3 +124,40 @@ body {
     height: 100%;
 }
 }
+
+.login-container .olho input{
+
+  border: none;
+
+}
+.olho{
+    
+    display: flex;
+    justify-content: space-between;
+    border: 0.6px solid #b6b3b3cc;
+    border-radius: 6px;
+   
+}
+.olho img{
+    margin-right: 15px;
+    
+    
+
+}
+@media screen  {(max-width: 1730px;)}{
+    body {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .login-container{
+        width: 100%;
+    
+
+    max-width: 100%;
+    box-shadow: none;
+}
+}
+    
+
+    
+
